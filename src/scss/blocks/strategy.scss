@@ -1,16 +1,33 @@
 .strategy{
 
-  &__title{}
+  &__title{
+    text-align: center;
+  }
 
-  &__info{}
+  &__info{
+    // text-align: center;
+  }
 
   &-column{
+    width: 48.5%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    padding-left: 10px;
 
-    &__title{}
+    &__title{
+      text-align: center;
+    }
 
-    &__list{}
+    &__list{
+      margin-left: 40px;
+    }
 
     &__remember{}
+  }
+
+  &-column--first{
+    border-right: 1px dashed #000;
   }
 
   &__show{

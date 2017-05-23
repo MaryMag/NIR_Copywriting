@@ -1,11 +1,19 @@
 .success{
 
   &__photo{
+    width: 34%;
+    display: inline-block;
 
-    &__img{}
+    &__img{
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
   }
 
   &__info{
+    width: 65%;
+    display: inline-block;
 
     &__title{}
 

@@ -1,8 +1,18 @@
 .footer{
+  width: 100%;
+  overflow: hidden;
 
-  &__text{}
+  &__text{
+    width: 69%;
+    text-align: left;
+    display: inline-block;
+  }
 
-  &__year{}
+  &__year{
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+  }
 
   
 }

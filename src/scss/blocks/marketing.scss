@@ -1,25 +1,46 @@
 .marketing{
-
+  width: 100%;
   &__copywriting{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
 
-    &__big{}
+    &__big{
+      display: inline-block;
+      text-align: center;
+    }
 
-    &__small{}
+    &__small{
+      display: inline-block;
+    }
   }
 
-  &__ground{}
+  &__ground{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
 
   &__info{}
 
   &__section{
+    width: 49.5%;
+    display: inline-block;
+    text-align: center;
 
-    &--border{}
+    &--border{
+      border-right: 1px dashed #000;
+    }
 
     &__title{}
 
     &__img{}
 
-    &__about{}
+    &__about{
+      width: 90%;
+      text-align: center;
+    }
   }
 
 

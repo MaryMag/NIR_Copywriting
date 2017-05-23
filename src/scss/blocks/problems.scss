@@ -1,6 +1,8 @@
 .problems{
 
-  &__title{}
+  &__title{
+    text-align: center;
+  }
 
 
 }
@@ -8,8 +10,17 @@
 .accordion{}
 
 .problem{
+  text-decoration: none;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #000;
 
-  &--active{}
+  &--active{
+    color: #89c1a1;
+  }
 
   &__info{}
 
