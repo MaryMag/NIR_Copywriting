@@ -1,0 +1,19 @@
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+
+  &__el{
+    display: inline-block;
+    margin: 0;
+
+    &__link{
+      text-decoration: none;
+    }
+
+    &__link:hover{}
+  }
+
+
+}

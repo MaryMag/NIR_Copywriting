@@ -1,7 +1,22 @@
 @import 'variables.scss';
-
+@import 'normalize.css';
 @import 'global.scss';
 @import 'fonts.scss';
 // @import 'sprite.scss';
 
 @import 'blocks/page-header.scss';
+@import 'blocks/check.scss';
+@import 'blocks/container.scss';
+@import 'blocks/elements.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/header.scss';
+@import 'blocks/main-nav.scss';
+@import 'blocks/main.scss';
+@import 'blocks/manager.scss';
+@import 'blocks/marketing.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/problems.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/strategy.scss';
+@import 'blocks/success.scss';
+@import 'blocks/tabs.scss';

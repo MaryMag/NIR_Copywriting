@@ -1,0 +1,21 @@
+.promo{
+  
+  background-color: #fff;
+
+  &__text{
+    margin-top: 160px;
+  }
+
+  &__title{
+    margin: 0;
+    font-size: 30px;
+  }
+
+  &__about{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 200px;
+  }
+}
