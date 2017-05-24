@@ -116,7 +116,7 @@ body {
     display: inline-block;
     text-align: center; }
   .marketing__section {
-    width: 49.5%;
+    width: 49.2%;
     display: inline-block;
     text-align: center;
     overflow: hidden;
@@ -134,7 +134,9 @@ body {
         margin-bottom: 25px; }
     .marketing__section__about {
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 30px; }
 
 .menu {
   width: 100%;
