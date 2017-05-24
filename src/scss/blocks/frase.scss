@@ -11,15 +11,19 @@
     text-align: center;
     margin-top: 50px;
 
-  &__big{
-    display: inline-block;
-    text-align: center;
-  }
+      &__big{
+        display: inline-block;
+        text-align: center;
+      }
 
-  &__small{
-    display: inline-block;
+      &__small{
+        display: inline-block;
+        font-size: 20px;
+        line-height: 28px;
+        // line-height: 46px;
+        vertical-align: middle;
+      }
   }
-}
 
   &__ground{
     width: 100%;

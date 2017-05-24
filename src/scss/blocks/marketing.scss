@@ -38,16 +38,25 @@
     display: inline-block;
     text-align: center;
     overflow: hidden;
+    vertical-align: top;
 
     &--border{
       border-right: 1px dashed #2B151B;
     }
 
-    &__title{}
+    &__title{
+      vertical-align: top;
+    }
 
     &__img{
       width: 100%;
       height: auto;
+      vertical-align: middle;
+
+      &--hand{
+        margin-top: 50px;
+        margin-bottom: 25px;
+      }
     }
 
     &__about{
