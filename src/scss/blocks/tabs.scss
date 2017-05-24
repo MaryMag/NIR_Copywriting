@@ -28,8 +28,10 @@ ul.tabs li {
   border-top: 1px solid #333;
   border-left: 1px solid #333;
   border-bottom: 1px solid #333;
-  background-color: #666;
-  color: #ccc;
+  border-right: 1px solid #333;
+  background-color: #492933;
+  color: #FFE1D0;
+  // color: #ccc;
   overflow: hidden;
   position: relative;
 }
@@ -37,8 +39,10 @@ ul.tabs li {
 .tab_last { border-right: 1px solid #333; }
 
 ul.tabs li:hover {
-  background-color: #ccc;
-  color: #333;
+  background-color: #964145;
+  color: #fff;
+  // background-color: #ccc;
+  // color: #333;
 }
 
 ul.tabs li.active {
@@ -53,7 +57,7 @@ ul.tabs li.active {
   border-top: none;
   clear: both;
   float: left;
-  width: 100%;
+  width: 99.9%;
   background: #fff;
   overflow: auto;
 }

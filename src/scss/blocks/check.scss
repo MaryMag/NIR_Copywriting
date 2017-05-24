@@ -1,8 +1,32 @@
 .check{
   width: 100%;
   overflow: hidden;
+  padding: 40px 0;
+  // display: inline-block;
 
-  &__title{}
+  &__title{
+    margin-left: 20px;
+  }
+
+  &__info{
+    width: 70%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    padding-top: 30px;
+  }
+
+  &__photo{
+    width: 25%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+
+    &__img{
+      width: 100%;
+      height: auto;
+    }
+  }
 
   
 }

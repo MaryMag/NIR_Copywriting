@@ -1,8 +1,9 @@
 .success{
-
+ border-bottom: 1px solid #2B151B;
   &__photo{
     width: 34%;
     display: inline-block;
+    vertical-align: top;
 
     &__img{
       width: 100%;
@@ -14,12 +15,21 @@
   &__info{
     width: 65%;
     display: inline-block;
+    vertical-align: top;
 
-    &__title{}
+    &__title{
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
 
-    &__list{}
+    &__list{
+      font-size: 18px;
+    }
 
-    &__finish{}
+    &__finish{
+      margin-top: 35px;
+      font-size: 18px;
+    }
   }
 
 

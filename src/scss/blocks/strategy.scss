@@ -1,19 +1,26 @@
 .strategy{
+width: 100%;
 
   &__title{
     text-align: center;
+    margin-top: 45px;
+    margin-bottom: 35px;
+
   }
 
   &__info{
+    margin-left: 27px;
     // text-align: center;
   }
 
   &-column{
-    width: 48.5%;
+    width: 48.2%;
     display: inline-block;
     overflow: hidden;
     vertical-align: top;
     padding-left: 10px;
+    padding-right: 5px;
+    border: 1px dashed #2B151B;
 
     &__title{
       text-align: center;
@@ -23,11 +30,13 @@
       margin-left: 40px;
     }
 
-    &__remember{}
+    &__remember{
+      line-height: 17px;
+    }
   }
 
   &-column--first{
-    border-right: 1px dashed #000;
+    border-right: none;
   }
 
   &__show{
@@ -36,7 +45,9 @@
 
     &__title{}
 
-    &__list{}
+    &__list{
+      margin-left: 42px;
+    }
 
     
   }

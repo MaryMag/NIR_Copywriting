@@ -1,14 +1,25 @@
 .promo{
+  background-image: url("../img/space_city.png");
+  background-position: 250px -93px;
+/*  background-position: -6px -6px*/
+/*  overflow: hidden;*/
+/*  display: block;*/
+  -webkit-background-size: cover;
+  background-size: cover;
+  // background-repeat: no-repeat;
   
-  background-color: #fff;
+  // background-color: #fff;
 
   &__text{
-    margin-top: 160px;
+    margin-top: 345px;
+    color: #FFE1D0;
   }
 
   &__title{
     margin: 0;
     font-size: 30px;
+    letter-spacing: 4px;
+    font-size: 38px;
   }
 
   &__about{
@@ -16,6 +27,6 @@
     font-weight: normal;
     margin: 0;
     margin-top: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 280px;
   }
 }

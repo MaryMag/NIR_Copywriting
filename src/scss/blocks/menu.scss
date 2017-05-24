@@ -11,9 +11,14 @@
 
     &__link{
       text-decoration: none;
+      color: #FFE1D0;
+      font-size: 16px;
     }
 
-    &__link:hover{}
+    &__link:hover{
+      color: #FF4310;
+      text-decoration: underline;
+    }
   }
 
 
