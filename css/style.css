@@ -227,7 +227,7 @@ body {
     .strategy-column__remember {
       line-height: 17px; }
   .strategy-column--first {
-    border-right: none; }
+    border-left: none; }
   .strategy__show__list {
     margin-left: 42px; }
 
