@@ -1,9 +1,3 @@
-build/*
-!build/readme.md
-design/
-src/scss/sprite.scss
-src/img/sprite-svg.svg
-
 .Saved/
 _arc/
 bower_components/
