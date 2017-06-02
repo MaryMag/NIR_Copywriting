@@ -88,16 +88,16 @@ gulp.task('img', function () {
 });
 
 // ЗАДАЧА: Копирование шрифтов
-gulp.task('fonts', function () {
-  return gulp.src([
-        dirs.source + '/fonts/*.{ttf,woff,woff2,eot,svg}',
-      ],
-      {since: gulp.lastRun('fonts')}
-    )
-    .pipe(plumber({ errorHandler: onError }))
-    .pipe(newer(dirs.build + '/fonts'))
-    .pipe(gulp.dest(dirs.build + '/fonts'));
-});
+// gulp.task('fonts', function () {
+//   return gulp.src([
+//         dirs.source + '/fonts/*.{ttf,woff,woff2,eot,svg}',
+//       ],
+//       {since: gulp.lastRun('fonts')}
+//     )
+//     .pipe(plumber({ errorHandler: onError }))
+//     .pipe(newer(dirs.build + '/fonts'))
+//     .pipe(gulp.dest(dirs.build + '/fonts'));
+// });
 
 // ЗАДАЧА ЗАПУСКАЕТСЯ ТОЛЬКО ВРУЧНУЮ: Оптимизация изображений
 gulp.task('img:opt', function () {
